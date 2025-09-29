@@ -1,8 +1,11 @@
 header{
-    height: 100px;
+    height: 150px;
     background-color: rgb(0, 179, 255);
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    /* background-size: contain; */
+}
+#logo{
+    text-align: bottom;
 }
 table{
     width: 100%;
@@ -35,4 +38,13 @@ thead{
 }
 .bg-yellow{
     background-color: yellow;
+}
+.primafoto{
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+}.secondafoto{
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 300px;
 }
